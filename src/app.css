@@ -1,3 +1,62 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+:root {
+    --max-width: 420px;
+    visibility: visible;
+    filter: saturate(1.2)
+}
+
+@font-face {
+    font-family: "Nohemi";
+    src: url("https://db.onlinewebfonts.com/t/2acd1ac6664b7b1a1545cc36d0680783.eot");
+    src: url("https://db.onlinewebfonts.com/t/2acd1ac6664b7b1a1545cc36d0680783.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/2acd1ac6664b7b1a1545cc36d0680783.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/2acd1ac6664b7b1a1545cc36d0680783.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/2acd1ac6664b7b1a1545cc36d0680783.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/2acd1ac6664b7b1a1545cc36d0680783.svg#Nohemi SemBd")format("svg");
+}
+
+@font-face {
+    font-family: "Mattone";
+    src: url("https://db.onlinewebfonts.com/t/772671da57870f15e83f54658285c0c8.eot");
+    src: url("https://db.onlinewebfonts.com/t/772671da57870f15e83f54658285c0c8.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/772671da57870f15e83f54658285c0c8.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/772671da57870f15e83f54658285c0c8.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/772671da57870f15e83f54658285c0c8.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/772671da57870f15e83f54658285c0c8.svg#Mattone")format("svg");
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.eot");
+    src: url("https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.svg#SF Pro Display Regular")format("svg");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("https://db.onlinewebfonts.com/t/8d63a82f5fc6d6eba21050dd9111520d.eot");
+    src: url("https://db.onlinewebfonts.com/t/8d63a82f5fc6d6eba21050dd9111520d.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/8d63a82f5fc6d6eba21050dd9111520d.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/8d63a82f5fc6d6eba21050dd9111520d.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/8d63a82f5fc6d6eba21050dd9111520d.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/8d63a82f5fc6d6eba21050dd9111520d.svg#Inter V")format("svg");
+}
+
+body {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    position: relative;
+    touch-action: manipulation;
+    user-select: none;
+}
+
+.test-container {
+    background: linear-gradient(132.15deg, #211A1A 0%, #212127 95.96%);
+}
